@@ -1,0 +1,66 @@
+.away_wrap {
+  left: 0px;
+  right: 0px;
+  margin: 50px auto;
+  position: absolute;
+  width: 780px;
+  line-height: 160%;
+}
+.away_head {
+  background-color: #4a76a8;
+  border-radius: 4px 4px 0 0;
+  height: 54px;
+}
+.away_logo {
+  margin: 18px 0 0 25px;
+  background: url(/ic_head_logo.svg) no-repeat center / contain;
+  display: inline-block;
+  width: 34px;
+  height: 19px;
+}
+.away_content {
+  padding: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.away_content h2 {
+  margin: 19px 0 7px;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.away_content.bad_browser {
+  text-align: center;
+  padding: 20px 20px 35px;
+}
+.away_content.bad_browser h2 {
+  margin-top: 15px;
+}
+.good_browsers {
+  padding: 20px 0 24px;
+}
+.good_browser {
+  padding: 20px 20px 15px;
+  margin: 0 10px;
+  border-radius: 2px;
+  display: inline-block;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 14px;
+}
+.browser_icon {
+  margin-bottom: 10px;
+  background-image: url(images/browsers.png);
+  width: 80px;
+  height: 80px;
+}
+.browser_icon.chrome {
+  background-position: 0 -160px;
+}
+.browser_icon.opera {
+  background-position: 0 -240px;
+}
+.browser_icon.firefox {
+  background-position: 0 -80px;
+}
